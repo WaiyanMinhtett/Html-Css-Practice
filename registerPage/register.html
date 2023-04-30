@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+      /* h1 {
+        font-family: "Dancing Script", cursive;
+      } */
+
+      body {
+        background-color: #303030;
+        color: white;
+      }
+
+      .whole {
+        border: 1px solid#00c3ff;
+        /* margin: auto; */
+        width: 220px;
+        padding: 0px 15px 10px 15px;
+      }
+
+      h1 {
+        font-family: "Dancing Script", cursive;
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 40px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+      }
+      /* 
+      .inputGroup {
+        margin-top: 10px;
+      }
+
+      .inputGroup input {
+        display: block;
+        border: none;
+        border-bottom: 2px solid #00c3ff;
+        background-color: #303030;
+        margin-bottom: 10px;
+        margin-left: 22px;
+        padding-bottom: 7px;
+      } */
+
+      .inputIdividual {
+        display: block;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 22px;
+      }
+
+      .inputIdividual input {
+        border: none;
+        border-bottom: 2px solid #00c3ff;
+        background-color: #303030;
+        margin-top: 15px;
+        color: beige;
+        outline: none;
+      }
+
+      .inputIdividual i {
+        color: #00c3ff;
+        margin-top: 0px;
+        margin-right: 5px;
+      }
+
+      ::placeholder {
+        color: rgba(255, 255, 255, 0.686);
+        opacity: 1;
+      }
+
+      .term {
+        margin: auto;
+        height: auto;
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 13px;
+      }
+
+      .checkbox {
+        /* background-color: coral;
+        color: coral; */
+        accent-color: #00c3ff;
+        margin-top: 3px;
+      }
+
+      /* .checkbox::before {
+        background-color: brown;
+        color: brown;
+        accent-color: brown;
+      } */
+
+      .acceptTerm {
+        margin-bottom: 2px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.686);
+        text-align: center;
+      }
+
+      .btn {
+        border: none;
+        border-radius: 3px;
+        width: 200px;
+        margin-left: 10px;
+        height: 25px;
+        background-color: #00c3ff;
+        /* margin-bottom: 20px; */
+        color: white;
+      }
+
+      .footer {
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.686);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="whole">
+        <h1>Register</h1>
+        <div class="inputGroup">
+          <div class="inputIdividual">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="" id="" placeholder="Username" />
+          </div>
+          <div class="inputIdividual">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="" id="" placeholder="Password" />
+          </div>
+          <div class="inputIdividual">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="" id="" placeholder="Email-Address" />
+          </div>
+        </div>
+        <div class="term">
+          <input type="checkbox" name="" id="" class="checkbox" />
+          <span class="acceptTerm">Accept rules and conditions</span>
+        </div>
+        <div>
+          <button class="btn">Get Started</button>
+        </div>
+        <div class="footer">
+          <span class="footerText">Already have an account?</span>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
